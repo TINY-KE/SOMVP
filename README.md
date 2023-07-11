@@ -26,12 +26,13 @@ We have tested the system in Ubuntu 18.04.
         cd Active_SLAM_based_on_VP-SOM
         chmod +x build_thirdparty.sh       
         ./build_thirdparty.sh
-      
+        ```
+        
     + Complie the Active SLAM and YOLO:
         ```
         cd {ROS_WORKSPACE}
         catkin_make
-        ```  ```
+        ```  
 
 ## 3. Usage of view planning method
 There are many parameters in the file "config/kinectv1.yaml" that can affect VP-SOM. This section will introduce these parameters.
