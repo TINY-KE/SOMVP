@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+#
+Active_SLAM_based_on_VP-SOM/cmake-build-debug
